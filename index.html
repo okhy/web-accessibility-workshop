@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="row">
+          <ul class="main-nav">
+            <li><a href="#contact-section">Contact</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="welcome-header">
+        <h1 tabindex="0">Kitty wants a home.<br />Adopt your little friend...</h1>
+        <a class="btn btn-full" href="#contact-section">Contact</a>
+        <a class="btn btn-ghost" href="#">Show gallery</a>
+      </div>
+    </header>
+    <section id="contact-section" class="contact-section">
+      <form class="contact-form">
+        <h4 tabindex="0" index aria-label="contact form">Contact form:</h4>
+        <div class="contact-form__formElement">
+          <label for="name">Name</label>
+          <input id="name" type="text" aria-label="enter your name" />
+        </div>
+        <div class="contact-form__formElement">
+          <label for="surname">Surname</label>
+          <input id="surname" type="text" aria-label="enter your surname" />
+        </div>
+        <div class="contact-form__formElement">
+          <label for="age">Age</label>
+          <input id="age" type="number" aria-label="enter your age" />
+        </div>
+        <div class="contact-form__formElement">
+          <label for="email">Email</label>
+          <input id="email" type="email" aria-label="enter your email" />
+        </div>
+        <div class="contact-form__formElement">
+          <label>Message</label>
+          <textarea cols="40" rows="10" aria-label="write your message" placeholder="type your message..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-full btn--submit">Submit</button>
+      </form>
+
+      <div tabindex="0" class="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel
+        lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis
+        vel hendrerit interdum, dui l
+      </div>
+    </section>
+  </body>
+</html>
